@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API Project">
+
+<listeners>
+		<listener class-name="com.api.extentreportlistener.Extentreport"/>
+	</listeners>
+ <test name="Testcases">
+  
+  
+    <classes>
+     <class name="com.api.API_tc1"/>
+     <class name="com.api.API_tc2"/>
+      <class name="com.api.API_tc3"/>
+       <class name="com.api.API_tc4"/>
+        <class name="com.api.API_tc5"/>
+         <class name="com.api.API_tc6"/>
+     
+     </classes>
+  </test> 
+</suite> 
